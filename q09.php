@@ -13,10 +13,12 @@ class a {
 }
 
 class b extends a {
-
+    public function __construct(){
+        echo $this->b();
+    }
 }
-
-
+    
+$new = new b;
 
 
 
